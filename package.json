@@ -1,9 +1,9 @@
 {
-  "name": "com.restartappplugin",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cordova-restart-on-crash",
+  "version": "0.7.1",
+  "description": "Automatically restart a Cordova / Android application after it crashes",
   "cordova": {
-    "id": "com.restartappplugin",
+    "id": "cordova-restart-on-crash",
     "platforms": [
       "android"
     ]
