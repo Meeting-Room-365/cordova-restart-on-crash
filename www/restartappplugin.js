@@ -2,8 +2,8 @@ var exec = require('cordova/exec');
 
 function restartappplugin() {};
 
-restartappplugin.prototype.setCustomExcpetionHandler = function () {
-    exec(function (res) {}, function (err) {}, "restartappplugin", "setCustomExceptionHandler", []);
+restartappplugin.prototype.setCustomExceptionHandler = function () {
+    exec(function (res) { console.log('Set custom exception handler', res) }, function (err) { console.log(err) }, "restartappplugin", "setCustomExceptionHandler", []);
 }
 
 restartappplugin.install = function () {
