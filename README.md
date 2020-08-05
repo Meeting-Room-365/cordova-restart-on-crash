@@ -3,7 +3,9 @@ Restart an Android / Cordova app on crash
 
 ## Scope
 
-This plugin is designed for Android environments, including tablets, phones, and Android TV. It leverages multiple methods to attempt to restart an app automatically when an unhandled exception results in a program crash. Useful for long-lived apps (such as digital signage, and kiosks).
+This plugin is designed for Android environments, including tablets, phones, and Android TV. Some Amazon FireOS devices (Tablet, Fire TV) may also be supported.
+
+It leverages multiple methods to attempt to restart an app automatically when an unhandled exception results in a program crash. Useful for long-lived apps (such as digital signage, and kiosks).
 
 ## Install
 
