@@ -23,4 +23,8 @@ restartappplugin.setCustomExceptionHandler()
 
 ## Notes
 
-This plugin requires Phonegap CLI 8.0.0 or later.
+This plugin requires Phonegap CLI 8.0.0 or later. If using PhoneGap Build, you can set this preference in your Config.xml via:
+
+```
+<preference name="phonegap-version" value="cli-8.0.0" />
+```
