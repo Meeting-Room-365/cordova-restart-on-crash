@@ -14,7 +14,7 @@ It leverages multiple methods to attempt to restart an app automatically when an
 | Android Phone  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | Android Tablet  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | Android TV  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Fire Tablet | :question: | :question: | :question: | :question: | :question: |
+| Fire Tablet | :heavy_check_mark: | :heavy_check_mark: |   |   |   |
 | Fire TV | :question: | :question: | :question: | :question: | :question: |
 
 ## Install
