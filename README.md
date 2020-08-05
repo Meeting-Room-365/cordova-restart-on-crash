@@ -7,6 +7,16 @@ This plugin is designed for Android environments, including tablets, phones, and
 
 It leverages multiple methods to attempt to restart an app automatically when an unhandled exception results in a program crash. Useful for long-lived apps (such as digital signage, and kiosks).
 
+## Supported Platforms
+
+| Platform  | Android 6 | Android 7 | Android 8 | Android 9 | Android 10 |
+| ----------------- | --------- | --------- | --------- | --------- | ---------- |
+| Android Phone  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| Android Tablet  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| Android TV  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Fire Tablet | :question: | :question: | :question: | :question: | :question: |
+| Fire TV | :question: | :question: | :question: | :question: | :question: |
+
 ## Install
 
 You can install this plugin from source, with the cordova command 
