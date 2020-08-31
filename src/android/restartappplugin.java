@@ -49,7 +49,6 @@ public class restartappplugin extends CordovaPlugin {
                 callbackContext.success("Custom exception handler set");
             }
         });
-
     }
 
     class CustomExceptionHandler implements java.lang.Thread.UncaughtExceptionHandler {
