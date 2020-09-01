@@ -8,9 +8,7 @@ restartappplugin.prototype.setCustomExceptionHandler = function () {
 
 restartappplugin.install = function () {
     if (!window.plugins) window.plugins = {};
-    var rap = new restartappplugin();
-    window.plugins.restartappplugin = rap.restartappplugin;
-    window.plugins.rap = rap;
+    window.plugins.restartappplugin = new restartappplugin();
     return window.plugins;
 }
 
